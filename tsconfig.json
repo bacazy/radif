@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "lib": ["es2015"],
+      "declaration": true,
+      "types": ["reflect-metadata"],
+    },
+    "include": [
+        "src/**/*"
+    ],
+}
