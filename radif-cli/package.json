@@ -1,10 +1,10 @@
 {
   "name": "radif-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --newLine LF",
     "login": "npm login --registry=https://registry.npmjs.org/",
     "pub": "npm publish --registry=https://registry.npmjs.org/"
   },
@@ -13,7 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.1.0",
-    "ts-node": "^8.5.4",
     "typescript": "^3.7.4"
   },
   "dependencies": {
