@@ -1,0 +1,30 @@
+{
+  "name": "radif-loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacazy/radif.git",
+    "login": "npm login --registry=https://registry.npmjs.org/",
+    "pub": "npm publish --registry=https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "zhangcheng <gc_zhangcheng@126.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bacazy/radif/issues"
+  },
+  "homepage": "https://github.com/bacazy/radif#readme",
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2"
+  }
+}

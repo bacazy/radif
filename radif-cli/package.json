@@ -1,0 +1,26 @@
+{
+  "name": "radif-cli",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "npm login --registry=https://registry.npmjs.org/",
+    "pub": "npm publish --registry=https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "zhangcheng <gc_zhangcheng@126.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "commander": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacazy/radif.git"
+  }
+}
